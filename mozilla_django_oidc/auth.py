@@ -14,7 +14,7 @@ except ImportError:
     from django.core.urlresolvers import reverse
 from django.utils.encoding import force_bytes, smart_text, smart_bytes
 from django.utils.module_loading import import_string
-from django.utils import six
+import six
 
 from josepy.jwk import JWK
 from josepy.jws import JWS
