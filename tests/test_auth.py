@@ -5,7 +5,7 @@ from django.conf import settings
 from django.contrib.auth import get_user_model
 from django.core.exceptions import SuspiciousOperation
 from django.test import RequestFactory, TestCase, override_settings
-from django.utils import six
+:import six
 from django.utils.encoding import force_bytes
 
 from mozilla_django_oidc.auth import (
